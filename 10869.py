@@ -1,0 +1,7 @@
+A,B=input().split()
+sum = int(A) + int(B)
+sub = int(A) - int(B)
+mul = int(A) * int(B)
+div = int(A) // int(B)
+mod = int(A) % int(B)
+print(sum,sub,mul,div,mod,sep='\n')
